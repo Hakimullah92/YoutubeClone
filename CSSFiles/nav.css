@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#212529;
+}
+.logo{
+    width: 90px;
+    height: 40px;
+}
+.menu-icon{
+    color: #fff;
+    border-radius: 50%;
+    padding: 3px;
+    transition: all 0.4s ease-in-out;
+}
+.menu-icon:hover{
+    background:grey;
+    color: #fff;
+}
+.searchinput{
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    
+}
+.input-group-text{
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    background: grey;
+    transition: all 0.3s ease-in-out;
+
+}
+.input-group-text:hover{
+    background:rgb(45, 45, 121);
+    color: #fff;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+}
+
